@@ -31,7 +31,7 @@
 # }
 
 def naming_system
-  hoh => {{PORTION_1 => {
+  hoh = {:PORTION_1 => {
   label: "Kingdom",
   sub_category: {
     label: "Phylum",
@@ -39,16 +39,17 @@ def naming_system
       label: "Class"
     }
   }
-}},{PORTION_2=> {
+},:PORTION_2=> {
   label: "Order"
-}},{PORTION_3 => {
+},:PORTION_3 => {
   label: "Family",
   sub_category: {
     label: "Genus",
   }
-}},{PORTION_4 => {
+},:PORTION_4 => {
   label: "Species",
   sub_category: nil
-}}}
+}}
 hoh
 end
+
